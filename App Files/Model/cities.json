@@ -1,0 +1,39 @@
+[
+  {
+    "id": "sydney",
+    "name": "Sydney",
+    "country": "Australia",
+    "coordinates": {
+      "latitude": -33.865143,
+      "longitude": 151.2099
+    },
+    "realtime": true,
+    "urls": {
+      "bus":    "https://api.transport.nsw.gov.au/v1/gtfs/realtime/buses",
+                "lightrail_cbdandsoutheast":"https://api.transport.nsw.gov.au/v1/gtfs/realtime/lightrail/cbdandsoutheast",
+                "lightrail_innerwest":"https://api.transport.nsw.gov.au/v1/gtfs/realtime/lightrail/innerwest",
+                "bus_position":"https://api.transport.nsw.gov.au/v1/gtfs/vehiclepos/buses"
+    },
+    "apiKey": "apikey eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJoLVIwZFhZYmFxeS1JcUtUcHlWMFZNVDg5QWFEMEFkdXRQX05DNE5KNnhNIiwiaWF0IjoxNzE3MzQ1ODg4fQ.j8JcPtqCeGy6EV8qUDQUie9XR07jjkeAiSxJRBibx-U",
+    "gtfsDownloadDate": null,
+    "gtfsFileName" : null
+  },
+  {
+    "id": "toulouse",
+    "name": "Toulouse",
+    "country": "France",
+    "coordinates": {
+      "latitude": 43.604652,
+      "longitude": 1.444209
+    },
+    "realtime": true,
+    "urls": {
+      "bus": "https://api.tisseo.fr/v2/stops_schedules.json"
+    },
+    "apiKey": "ff6ba1b2-92a1-4782-a4ec-c537001d55a2",
+    "gtfsDownloadDate": null,
+    "gtfsFileName": null
+  }
+]
+
+
